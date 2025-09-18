@@ -3,15 +3,11 @@
 Commands to deploy DB in EC2
 
 STEP 1 : Begin Configuration 
-
+```bash
 sudo su -
-
 yum install mariadb105 -y
-
 systemctl enable mariadb
-
 systemctl start mariadb
-
 yum -y update  
 
 STEP 2 : Set Environmental Variables
