@@ -1,8 +1,10 @@
 
 # Commands_DB
 Commands to deploy DB in EC2
-
-STEP 1 : Begin Configuration 
+<details><summary>
+STEP 1 : Begin Configuration
+</summary>
+</details>
 ```bash
 sudo su -
 yum install mariadb105 -y
@@ -11,7 +13,7 @@ systemctl start mariadb
 yum -y update  
 
 STEP 2 : Set Environmental Variables
-
+```bash
 DBName=ec2db
 DBPassword=admin123456
 DBRootPassword=admin123456
