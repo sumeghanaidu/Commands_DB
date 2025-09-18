@@ -12,7 +12,7 @@ systemctl start mariadb
 yum -y update  
 
 STEP 2 : Set Environmental Variables
-```bash
+
 DBName=ec2db
 DBPassword=admin123456
 DBRootPassword=admin123456
