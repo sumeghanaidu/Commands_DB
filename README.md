@@ -1,10 +1,9 @@
 
 # Commands_DB
 Commands to deploy DB in EC2
-<details><summary>
+
 STEP 1 : Begin Configuration
-</summary>
-</details>
+
 ```bash
 sudo su -
 yum install mariadb105 -y
